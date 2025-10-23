@@ -330,7 +330,7 @@ function App() {
           Corporate Retreats
         </h2>
         <p 
-          className="max-w-2xl text-lg font-medium text-gray-600 text-center mb-12"
+          className="max-w-2xl text-lg font-medium text-gray-600 text-left md:text-center mb-12"
           data-aos="fade-up"
           data-aos-delay="100"
         >
@@ -368,7 +368,7 @@ function App() {
           Weekend Getaways
         </h2>
         <p 
-          className="max-w-2xl text-lg text-gray-600 text-center mb-12"
+          className="max-w-2xl text-lg text-gray-600 text-left md:text-center mb-12"
           data-aos="fade-up"
           data-aos-delay="100"
         >

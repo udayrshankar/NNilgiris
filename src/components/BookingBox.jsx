@@ -3,7 +3,7 @@ import { IoClose } from "react-icons/io5";
 
 const BookingBox = ({ onClose }) => {
     return (
-        <div className="z-50 flex fixed inset-0 backdrop-blur-sm justify-center">
+        <div id="booking" className="z-50 flex fixed inset-0 backdrop-blur-sm justify-center">
             <div className="max-w-3xl mt-5">
                 <div className="flex flex-col gap-3 bg-white border-1 border-teal-200 rounded-lg p-6">
                     <div className='flex justify-between items-center pt-4 pr-4'>

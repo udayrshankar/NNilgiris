@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = ({openForm}) => {
     return (
-        <div className='bg-teal-950'>
+        <div id='contact' className='bg-teal-950'>
             <div className='flex flex-col items-center text-center gap-5'>
                 <h2 className="text-7xl font-bold animate-pulse text-emerald-300 
                 transition-all duration-800 transform hover:scale-105 mt-20">Ready to Transform Your Team?</h2>

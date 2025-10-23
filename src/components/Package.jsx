@@ -3,7 +3,7 @@ import { FaCheck, FaUserTie, FaCalendarAlt, FaPhoneAlt, FaStar } from "react-ico
 
 const Package = ({ openModal }) => {
   return (
-    <div className="flex flex-col w-full max-w-sm bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden text-gray-800 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+    <div id='packages' className="flex flex-col w-full max-w-sm bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden text-gray-800 hover:shadow-2xl hover:scale-105 transition-all duration-500">
       
       {/* Header */}
       <div className="p-6 border-b border-gray-100 bg-gradient-to-b from-green-50 to-white">

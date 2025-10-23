@@ -3,7 +3,7 @@ import { Star, Quote } from 'lucide-react';
 
 const ReviewsPage = ({ quote, name, company, stars }) => {
   return (
-    <div className="bg-white h-full rounded-2xl shadow-xl border border-gray-100 p-8 flex flex-col justify-between
+    <div id='about' className="bg-white h-full rounded-2xl shadow-xl border border-gray-100 p-8 flex flex-col justify-between
                     transform transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
       <div className="flex flex-col gap-4">
         <div className="flex justify-between items-center">
